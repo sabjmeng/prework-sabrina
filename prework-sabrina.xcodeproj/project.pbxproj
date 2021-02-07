@@ -1,0 +1,592 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1F6B289625CF64FE00A5BFC8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F6B289525CF64FE00A5BFC8 /* AppDelegate.swift */; };
+		1F6B289825CF64FE00A5BFC8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F6B289725CF64FE00A5BFC8 /* SceneDelegate.swift */; };
+		1F6B289A25CF64FE00A5BFC8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F6B289925CF64FE00A5BFC8 /* ViewController.swift */; };
+		1F6B289D25CF64FE00A5BFC8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F6B289B25CF64FE00A5BFC8 /* Main.storyboard */; };
+		1F6B289F25CF64FF00A5BFC8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F6B289E25CF64FF00A5BFC8 /* Assets.xcassets */; };
+		1F6B28A225CF64FF00A5BFC8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F6B28A025CF64FF00A5BFC8 /* LaunchScreen.storyboard */; };
+		1F6B28AD25CF64FF00A5BFC8 /* prework_sabrinaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F6B28AC25CF64FF00A5BFC8 /* prework_sabrinaTests.swift */; };
+		1F6B28B825CF64FF00A5BFC8 /* prework_sabrinaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F6B28B725CF64FF00A5BFC8 /* prework_sabrinaUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1F6B28A925CF64FF00A5BFC8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1F6B288A25CF64FE00A5BFC8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1F6B289125CF64FE00A5BFC8;
+			remoteInfo = "prework-sabrina";
+		};
+		1F6B28B425CF64FF00A5BFC8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1F6B288A25CF64FE00A5BFC8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1F6B289125CF64FE00A5BFC8;
+			remoteInfo = "prework-sabrina";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1F6B289225CF64FE00A5BFC8 /* prework-sabrina.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "prework-sabrina.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F6B289525CF64FE00A5BFC8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1F6B289725CF64FE00A5BFC8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		1F6B289925CF64FE00A5BFC8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1F6B289C25CF64FE00A5BFC8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1F6B289E25CF64FF00A5BFC8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1F6B28A125CF64FF00A5BFC8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1F6B28A325CF64FF00A5BFC8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1F6B28A825CF64FF00A5BFC8 /* prework-sabrinaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "prework-sabrinaTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F6B28AC25CF64FF00A5BFC8 /* prework_sabrinaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = prework_sabrinaTests.swift; sourceTree = "<group>"; };
+		1F6B28AE25CF64FF00A5BFC8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1F6B28B325CF64FF00A5BFC8 /* prework-sabrinaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "prework-sabrinaUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F6B28B725CF64FF00A5BFC8 /* prework_sabrinaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = prework_sabrinaUITests.swift; sourceTree = "<group>"; };
+		1F6B28B925CF64FF00A5BFC8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1F6B288F25CF64FE00A5BFC8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F6B28A525CF64FF00A5BFC8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F6B28B025CF64FF00A5BFC8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1F6B288925CF64FE00A5BFC8 = {
+			isa = PBXGroup;
+			children = (
+				1F6B289425CF64FE00A5BFC8 /* prework-sabrina */,
+				1F6B28AB25CF64FF00A5BFC8 /* prework-sabrinaTests */,
+				1F6B28B625CF64FF00A5BFC8 /* prework-sabrinaUITests */,
+				1F6B289325CF64FE00A5BFC8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1F6B289325CF64FE00A5BFC8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1F6B289225CF64FE00A5BFC8 /* prework-sabrina.app */,
+				1F6B28A825CF64FF00A5BFC8 /* prework-sabrinaTests.xctest */,
+				1F6B28B325CF64FF00A5BFC8 /* prework-sabrinaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1F6B289425CF64FE00A5BFC8 /* prework-sabrina */ = {
+			isa = PBXGroup;
+			children = (
+				1F6B289525CF64FE00A5BFC8 /* AppDelegate.swift */,
+				1F6B289725CF64FE00A5BFC8 /* SceneDelegate.swift */,
+				1F6B289925CF64FE00A5BFC8 /* ViewController.swift */,
+				1F6B289B25CF64FE00A5BFC8 /* Main.storyboard */,
+				1F6B289E25CF64FF00A5BFC8 /* Assets.xcassets */,
+				1F6B28A025CF64FF00A5BFC8 /* LaunchScreen.storyboard */,
+				1F6B28A325CF64FF00A5BFC8 /* Info.plist */,
+			);
+			path = "prework-sabrina";
+			sourceTree = "<group>";
+		};
+		1F6B28AB25CF64FF00A5BFC8 /* prework-sabrinaTests */ = {
+			isa = PBXGroup;
+			children = (
+				1F6B28AC25CF64FF00A5BFC8 /* prework_sabrinaTests.swift */,
+				1F6B28AE25CF64FF00A5BFC8 /* Info.plist */,
+			);
+			path = "prework-sabrinaTests";
+			sourceTree = "<group>";
+		};
+		1F6B28B625CF64FF00A5BFC8 /* prework-sabrinaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1F6B28B725CF64FF00A5BFC8 /* prework_sabrinaUITests.swift */,
+				1F6B28B925CF64FF00A5BFC8 /* Info.plist */,
+			);
+			path = "prework-sabrinaUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1F6B289125CF64FE00A5BFC8 /* prework-sabrina */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1F6B28BC25CF64FF00A5BFC8 /* Build configuration list for PBXNativeTarget "prework-sabrina" */;
+			buildPhases = (
+				1F6B288E25CF64FE00A5BFC8 /* Sources */,
+				1F6B288F25CF64FE00A5BFC8 /* Frameworks */,
+				1F6B289025CF64FE00A5BFC8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "prework-sabrina";
+			productName = "prework-sabrina";
+			productReference = 1F6B289225CF64FE00A5BFC8 /* prework-sabrina.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1F6B28A725CF64FF00A5BFC8 /* prework-sabrinaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1F6B28BF25CF64FF00A5BFC8 /* Build configuration list for PBXNativeTarget "prework-sabrinaTests" */;
+			buildPhases = (
+				1F6B28A425CF64FF00A5BFC8 /* Sources */,
+				1F6B28A525CF64FF00A5BFC8 /* Frameworks */,
+				1F6B28A625CF64FF00A5BFC8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1F6B28AA25CF64FF00A5BFC8 /* PBXTargetDependency */,
+			);
+			name = "prework-sabrinaTests";
+			productName = "prework-sabrinaTests";
+			productReference = 1F6B28A825CF64FF00A5BFC8 /* prework-sabrinaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1F6B28B225CF64FF00A5BFC8 /* prework-sabrinaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1F6B28C225CF64FF00A5BFC8 /* Build configuration list for PBXNativeTarget "prework-sabrinaUITests" */;
+			buildPhases = (
+				1F6B28AF25CF64FF00A5BFC8 /* Sources */,
+				1F6B28B025CF64FF00A5BFC8 /* Frameworks */,
+				1F6B28B125CF64FF00A5BFC8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1F6B28B525CF64FF00A5BFC8 /* PBXTargetDependency */,
+			);
+			name = "prework-sabrinaUITests";
+			productName = "prework-sabrinaUITests";
+			productReference = 1F6B28B325CF64FF00A5BFC8 /* prework-sabrinaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1F6B288A25CF64FE00A5BFC8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					1F6B289125CF64FE00A5BFC8 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					1F6B28A725CF64FF00A5BFC8 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 1F6B289125CF64FE00A5BFC8;
+					};
+					1F6B28B225CF64FF00A5BFC8 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 1F6B289125CF64FE00A5BFC8;
+					};
+				};
+			};
+			buildConfigurationList = 1F6B288D25CF64FE00A5BFC8 /* Build configuration list for PBXProject "prework-sabrina" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1F6B288925CF64FE00A5BFC8;
+			productRefGroup = 1F6B289325CF64FE00A5BFC8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1F6B289125CF64FE00A5BFC8 /* prework-sabrina */,
+				1F6B28A725CF64FF00A5BFC8 /* prework-sabrinaTests */,
+				1F6B28B225CF64FF00A5BFC8 /* prework-sabrinaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1F6B289025CF64FE00A5BFC8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F6B28A225CF64FF00A5BFC8 /* LaunchScreen.storyboard in Resources */,
+				1F6B289F25CF64FF00A5BFC8 /* Assets.xcassets in Resources */,
+				1F6B289D25CF64FE00A5BFC8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F6B28A625CF64FF00A5BFC8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F6B28B125CF64FF00A5BFC8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1F6B288E25CF64FE00A5BFC8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F6B289A25CF64FE00A5BFC8 /* ViewController.swift in Sources */,
+				1F6B289625CF64FE00A5BFC8 /* AppDelegate.swift in Sources */,
+				1F6B289825CF64FE00A5BFC8 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F6B28A425CF64FF00A5BFC8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F6B28AD25CF64FF00A5BFC8 /* prework_sabrinaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F6B28AF25CF64FF00A5BFC8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F6B28B825CF64FF00A5BFC8 /* prework_sabrinaUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1F6B28AA25CF64FF00A5BFC8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1F6B289125CF64FE00A5BFC8 /* prework-sabrina */;
+			targetProxy = 1F6B28A925CF64FF00A5BFC8 /* PBXContainerItemProxy */;
+		};
+		1F6B28B525CF64FF00A5BFC8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1F6B289125CF64FE00A5BFC8 /* prework-sabrina */;
+			targetProxy = 1F6B28B425CF64FF00A5BFC8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1F6B289B25CF64FE00A5BFC8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1F6B289C25CF64FE00A5BFC8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1F6B28A025CF64FF00A5BFC8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1F6B28A125CF64FF00A5BFC8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1F6B28BA25CF64FF00A5BFC8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1F6B28BB25CF64FF00A5BFC8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1F6B28BD25CF64FF00A5BFC8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "prework-sabrina/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "memo.com.prework-sabrina";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1F6B28BE25CF64FF00A5BFC8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "prework-sabrina/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "memo.com.prework-sabrina";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		1F6B28C025CF64FF00A5BFC8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "prework-sabrinaTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "memo.com.prework-sabrinaTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/prework-sabrina.app/prework-sabrina";
+			};
+			name = Debug;
+		};
+		1F6B28C125CF64FF00A5BFC8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "prework-sabrinaTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "memo.com.prework-sabrinaTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/prework-sabrina.app/prework-sabrina";
+			};
+			name = Release;
+		};
+		1F6B28C325CF64FF00A5BFC8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "prework-sabrinaUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "memo.com.prework-sabrinaUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "prework-sabrina";
+			};
+			name = Debug;
+		};
+		1F6B28C425CF64FF00A5BFC8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "prework-sabrinaUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "memo.com.prework-sabrinaUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "prework-sabrina";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1F6B288D25CF64FE00A5BFC8 /* Build configuration list for PBXProject "prework-sabrina" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F6B28BA25CF64FF00A5BFC8 /* Debug */,
+				1F6B28BB25CF64FF00A5BFC8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1F6B28BC25CF64FF00A5BFC8 /* Build configuration list for PBXNativeTarget "prework-sabrina" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F6B28BD25CF64FF00A5BFC8 /* Debug */,
+				1F6B28BE25CF64FF00A5BFC8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1F6B28BF25CF64FF00A5BFC8 /* Build configuration list for PBXNativeTarget "prework-sabrinaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F6B28C025CF64FF00A5BFC8 /* Debug */,
+				1F6B28C125CF64FF00A5BFC8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1F6B28C225CF64FF00A5BFC8 /* Build configuration list for PBXNativeTarget "prework-sabrinaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F6B28C325CF64FF00A5BFC8 /* Debug */,
+				1F6B28C425CF64FF00A5BFC8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1F6B288A25CF64FE00A5BFC8 /* Project object */;
+}
