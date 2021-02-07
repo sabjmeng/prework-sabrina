@@ -5,7 +5,7 @@
 
 Submitted by: **Sabrina Meng**
 
-Time spent: **3** hours spent in total
+Time spent: **5** hours spent in total
 
 ## User Stories
 
@@ -16,14 +16,19 @@ The following **required** functionality is complete:
 
 The following **optional** features are implemented:
 
-* [ ] UI animations
+* [x] UI animations
 * [ ] Remembering the bill amount across app restarts (if <10mins)
 * [ ] Using locale-specific currency and currency thousands separators.
 * [ ] Making sure the keyboard is always visible and the bill amount is always the first responder. This way the user doesn't have to tap anywhere to use this app. Just launch the app and start typing.
 
 The following **additional** features are implemented:
 
-- [ ] List anything else that you can get done to improve the app functionality!
+- [x] List anything else that you can get done to improve the app functionality!
+
+- Used UI elements to highlight information hierarchy. Emphasized the most important features like Bill Amount and total by making the sizes of these bigger and de-emphasized the dollar tip amount by making the text weight light. 
+- Used color blocking to separate the UI into two chunks: the darker blue (top) is the place where the user performs actions and the lighter blue (bottom) shows the outcome from the user's actions. 
+- Changed background color to blue since it is a color that signals trust, which is important for an app that deals with money
+
 
 ## Video Walkthrough
 
@@ -37,7 +42,7 @@ GIF created with [LiceCap](http://www.cockos.com/licecap/).
 ## Notes
 
 Describe any challenges encountered while building the app.
-1. had trouble getting program to calculate immediately when bill amount is input. current program calculates tip once the user selects a tip amount.
+1. I had trouble getting the program to calculate immediately when bill amount is input. The current program calculates tip once the user selects a tip amount.
 
 
 ## License
